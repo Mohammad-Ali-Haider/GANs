@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Downloaded training data and generated model artifacts
+/datasets/
+/experiments/*/models/
+/experiments/*/samples/
+*.pth
+*.pt
+
+# Local notebook and environment files
+.ipynb_checkpoints/
+.env
+.env.*
